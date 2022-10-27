@@ -1,0 +1,22 @@
+{
+  "name": "forian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resetmerlin/forIan.git"
+  },
+  "author": "Merlin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resetmerlin/forIan/issues"
+  },
+  "homepage": "https://github.com/resetmerlin/forIan#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

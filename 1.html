@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/apex.css">
+    
+</head>
+<body>
+  <audio id="theme" autoplay loop>
+    <source src="/y2mate.com - Apex Legends Main Theme.mp3" type="audio/mp3">
+  </audio>
+    <video autoplay loop muted class="vid none">
+      <source src="/Apex Legends 2022-10-27 10-34-51_Trim.mp4" type="video/mp4">
+    </video>
+
+    <div class='container'>
+        <table class="table-responsive">
+          <tr>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-bloodhound.png.adapt.crop16x9.png" alt="Bloodhound" class='color Bloodhound not'> </td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-gibraltar.png.adapt.crop16x9.png" alt="gibraltar" class='color gibraltar not'></td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-lifeline.png.adapt.crop16x9.png" alt="lifeline" class='color lifeline not'></td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-pathfinder.png.adapt.crop16x9.png" alt="pathfinder" class='color pathfinder not'></td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-octane.png.adapt.crop16x9.png" alt="octane" class='color octane not'> </td>
+          </tr>
+        </table>
+        <table class="table-responsive" id='row2'>
+          <tr>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-wraith.png.adapt.crop16x9.png" alt="" class='color wraith'></td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-bangalore.png.adapt.crop16x9.png" alt="Bangalor" class='color Bangalor not '>
+           </td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-caustic.png.adapt.crop16x9.png" alt="Caustic" class='color Caustic'></td>
+            <td><img src="https://media.contentapi.ea.com/content/dam/apex-legends/images/2019/01/legends-character-tiles/apex-grid-tile-legends-mirage.png.adapt.crop16x9.png" alt="Mirage" class='color Mirage not'></td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <audio id="luv" src="/y2mate.com - I Love you Sound EffectGirl Voice  Sound Hub Originals.mp3"></audio>
+      <audio id="ian" src="/iann.m4a"></audio>
+      <audio id="toian" src="/toian.m4a"></audio>
+
+      <script>
+ 
+        document.querySelector(".Bangalor").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+
+        document.querySelector(".Bloodhound").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+        document.querySelector(".gibraltar").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+        document.querySelector(".lifeline").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+        document.querySelector(".pathfinder").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+        
+        document.querySelector(".octane").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+       
+        document.querySelector(".Mirage").addEventListener("click", (event)=>{
+            event.target.classList.toggle("tremble");
+       
+            newDiv.classList.toggle("notLikeIt");
+
+        });
+        
+        const legends = document.querySelector(".Caustic");
+        legends.addEventListener("click", legendColorGrey);
+        function legendColorGrey() {
+          legends.classList.toggle("noColor");
+          document.getElementById("luv").play();
+          document.getElementById("theme").pause();
+          document.querySelector(".vid").classList.remove("none")
+          document.getElementById("ian").play();
+
+
+        }
+
+        
+           </script>
+
+</body>
+</html>
